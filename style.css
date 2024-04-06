@@ -1,0 +1,611 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Aleo', serif;
+}
+#head{
+    width: 100%;
+}
+#head > nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: rgb(51, 51, 51);
+}
+#menubar{
+    display: none;
+}
+#head > nav > #left{
+    width: 40%;
+}
+#head > nav > #left > h4{
+    font-size: 1.5rem;
+    margin: 0;
+    margin-left: 2rem;
+    padding: .9rem 1.2rem;
+    color: #fff;
+}
+#head > nav > #right{
+    width: 60%
+}
+#head > nav > #right > ul{
+    display: flex;
+}
+#head > nav > #right > ul > li{
+    list-style-type: none;
+}
+#head > nav > #right > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    transition: .5s;
+}
+#head > nav > #right > ul > li > a:hover{
+    color: #949494ff;
+}
+#linear{
+    z-index: -1;
+    width: 100%;
+    height: 120vh;
+    background-image: url(./Images/intro-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+ #head > #linear > #main{
+    z-index: 1;
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.639093137254902) 0%, rgba(254,251,251,0.20211834733893552) 44%, rgba(0,0,0,0.6026785714285714) 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#head > #linear > #main >   h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#head > #linear > #main >   h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+#head > #linear > #main > button{
+    border: none;
+    border-radius: 5px;
+    background-color: #69ad31ff ;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 1rem;
+    transition: .5s;
+}
+#head > #linear > #main > button:hover{
+    background-color: rgb(80, 141, 30)
+}
+#welcome{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem ; 
+}
+#welcome > #left{
+    width: 48%;
+
+}
+#welcome > #left > h2{
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+#welcome > #left > h2 > span{
+    color: #69ad31ff;
+}
+#welcome > #left > span{
+    margin: 0;
+    font-weight: 700;
+    color: #69ad31ff;
+}
+#welcome > #left > p {
+    font-size: 14px;
+    color: #5f6369ff;
+    margin-bottom: 2.5rem;
+}
+#welcome > #left >button {
+    background-color: #69ad31ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 1rem;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+#welcome > #left >button:hover{
+    background-color: rgb(79, 137, 32);
+}
+#welcome > #right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#welcome > #right > .care{
+    width: 100%;
+}
+#welcome > #right > .care > h4{
+   margin: 14px 0px;
+}
+#welcome > #right > .care > p {
+    font-size: 14px;
+    color: #5f6369ff;
+}
+#Service {
+    width: 100%;
+    margin-top: 6rem ; 
+    background-color: #69ad31ff;
+    color: #fff;
+    padding-top: 5rem;
+}
+#Service > #tserve{
+    text-align: center;
+}
+#Service > #tserve > h2{
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+#Service > #tserve > h4{
+    margin-bottom: 4rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+#Service > #slide{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+#Service > #slide > .serve{
+    width: 18%;
+    margin-bottom: 8rem;
+}
+#Service > #slide > .serve > img {
+    width: 95%;
+    border: 10px solid #78b547ff;
+    border-radius: 50%;
+}
+#Service > #slide > .serve > h4{
+    font-size: 1.2rem;
+    text-align: center;
+}
+#Service > #slide > .serve > p{
+    font-size: 15px;
+    text-align: center;
+}
+#Gallery {
+    margin-top: 4rem ; 
+    padding-bottom: 6rem;
+}
+#Gallery > #gtop{
+    width: 85%;
+    margin: auto;
+    text-align: center ;  
+}
+#Gallery > #gtop > h2{
+    margin-bottom: 0rem ; 
+    font-size: 2rem;
+    font-weight: 500;
+}
+#Gallery > #gtop > span{
+    color: #69ad31ff;
+    font-weight: 800;
+    /* font-size: 1rem; */
+}
+#Gallery > #gtop > p {
+    margin-bottom: 1rem ;
+} 
+#Gallery > #gtop > button{
+    padding: 10px 1rem ;
+    font-weight: 600;
+    background-color: #e6e6e6ff;
+    border: none;
+    margin: 2.5rem 1rem;
+    transition: .5s;
+}
+#Gallery > #gtop > button:hover{
+    color: #fff;
+    background-color:#69ad31ff
+}
+#container{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+
+}
+#container > .box{
+    width: 100%;
+}
+#container > .box > img{
+    width: 100%;
+    height: 200px;
+}
+#Testimonials{
+    background-image: url(./Images/testimonials-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+#Testimonials > #test{
+    background-color: rgba(105, 173, 49, 0.674);
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+    padding: 6rem 0rem;
+}
+#Testimonials > #test > h2{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+#Testimonials > #test > p{
+    font-size: 15px;
+    margin: auto;
+    margin-top: 5rem;
+    width: 60%;
+}
+#contact{
+    text-align: center;
+    padding: 4rem 0rem ;
+    background-color: #f5f5f5ff;
+}
+#contact>h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+#contact>span{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #69ad31ff;
+}
+#contact>p{
+    color: #949494ff; 
+    
+    margin-bottom: 3rem;
+}
+#contact>#address{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+#contact>#address>.info{
+    margin-bottom: 4rem;
+}
+#contact>#address>.info>h4{
+    margin-bottom: 0;
+}
+#contact>#address>.info>span{
+    color: #949494ff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#contact>#address>.info>p{
+    font-size: 15px;
+    color: #949494ff;
+}
+#contact> h4{
+    margin-bottom: 2rem;
+}
+#contact > form {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+#contact > form > input{
+    padding: 10px 70px 10px 15px;
+    margin: 0rem 1rem  ;
+}
+#contact > form > #text{
+    margin: auto ; 
+    display: block;
+    margin-top: 2rem ;
+    padding: 12px 8px 0px 11px;
+}
+#contact > button{
+    background-color: #69ad31ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding:10px 14px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s;
+}
+#contact > button:hover{
+    background-color: rgb(82, 145, 31);
+}
+#message{
+    padding: 2rem 0rem;
+    background-color: #363636ff;
+    color: #fff;
+    text-align: center;
+}
+#message >div >  .fa-brands{
+    background-color: #454545ff;
+    color: #69ad31ff;
+    margin: 1rem 16px;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+}
+#message >div >  .fa-brands:hover{
+    color: rgb(82, 145, 31);
+}
+#message > p{
+    font-size: 15px;
+    color: #949494ff;
+}
+@media(max-width:600px){
+    #head > nav{
+        width: 100%;
+        height: 8vh;
+        display: block ;
+        position: relative;
+    }
+    #menubar{
+        display: block;
+        position: absolute;
+        color: #fff;
+        font-size: 1.5rem; 
+        top: 27%;
+        left: 5%;
+    }
+    #head > nav > #left{
+        width: 100%;
+    }
+    #head > nav > #left > h4{
+        font-size: 2rem;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 0rem;
+        color: #fff;
+    }
+    #head > nav > #right{
+        display: none;
+    }
+
+    /* //////////////////////////////// */
+
+    #linear{
+        height: 80vh;
+    }
+     #head > #linear > #main{
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #head > #linear > #main >   h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+    }
+    #head > #linear > #main >   h4 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-weight: 400;
+    }
+    #head > #linear > #main > button{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 15px;
+    }
+    
+    /* //////////////////////////////// */
+
+    #welcome{
+        width: 100%;
+        display: block;
+        margin-top: 2rem ; 
+    }
+    #welcome > #left{
+        width: 100%;
+    }
+    #welcome > #left > h2{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    #welcome > #left > span{
+        text-align: center ;
+    }
+    #welcome > #left > span{
+        display: block;
+        font-weight: 600;
+        text-align: center;
+    }
+    #welcome > #left > p {
+        width: 85%;
+        font-size: 12px;
+        margin: 1.5rem auto;
+    }
+    #welcome > #left >button {
+        font-size: 12px;
+        font-weight: 500;
+        width: 85%;
+        display: block;
+        margin: auto;
+    }
+
+    #welcome > #right{
+        width: 100%;
+        display: block;
+    }
+    #welcome > #right > .care{
+        width: 85%;
+        margin: 1rem auto;
+    }
+    #welcome > #right > .care > img{
+        width: 100%;
+    }
+    #welcome > #right > .care > h4{
+        text-align: center;
+        margin: .5rem 0;
+    }
+    #welcome > #right > .care > p {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #Service {
+        margin-top: 2rem  ; 
+        padding: 2rem 0rem;
+    
+    }
+    #Service > #tserve > h2{
+        font-size: 1.8rem;
+    }
+    #Service > #tserve > h4{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    #Service > #slide{
+        width: 85%;
+        display: block;
+        margin: auto;
+    }
+    #Service > #slide > .serve{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    #Service > #slide > .serve > img {
+        width: 95%;
+        border: 10px solid #78b547ff;
+        border-radius: 50%;
+    }
+    #Service > #slide > .serve > p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    
+    /* /////////////////////////////////////// */
+
+    #Gallery {
+        margin-top: 2rem ; 
+        padding-bottom: 2rem;
+    }
+    #Gallery > #gtop > h2{
+        font-size: 1.8rem;
+    }
+    #Gallery > #gtop > p {
+        margin-bottom: 10px;
+        font-size: 12px;
+    } 
+    #Gallery > #gtop > button{
+        padding: 5px  ;
+        font-size: 11px;
+        font-weight: 500;
+        margin: 10px 10px;
+        transition: .5s;
+    }
+    #container{
+        margin: 10px auto;
+        gap: 10px;
+    }
+    #container > .box{
+        width: 100%;
+    }
+    #container > .box > img{
+        height: 10vh;
+    }
+    #Testimonials > #test{
+        height: 25vh;
+        padding: 2rem 0rem;
+    }
+    #Testimonials > #test > h2{
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+    #Testimonials > #test > p{
+        font-size: 12px;
+        margin-top: 2rem;
+        width: 85%;
+    }
+    #contact{
+        width: 100%;
+        padding: 1.5rem 0rem ;
+    }
+    #contact>h2{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    #contact>span{
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    #contact>p{
+        width: 85%;
+        font-size: 14px;
+        margin: 15px auto;
+    }
+    #contact>#address{
+        display: block;
+        width: 85%;
+        margin: auto;
+    }
+    #contact>#address>.info{
+        margin-bottom: 1rem;
+    }
+    #contact>#address>.info>p{
+        font-size: 12px;
+    }
+    #contact> h4{
+        margin-bottom: 2rem;
+    }
+    #contact > form {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+    #contact > form > input{
+        padding: 10px 0px;
+        width: 100%;
+        margin: 10px 0px  ;
+    }
+    #contact > form > #text{
+        display: none;
+    }
+    #contact > button{
+        width: 85%;
+        margin: auto;
+        padding:10px 0px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #message{
+        padding: 1rem 0rem;
+    }
+    #message >div >  .fa-brands{
+        margin: 16px;
+        padding: 8px;
+        font-size: 1rem;
+    }
+    #message > p{
+        font-size: 13px ; 
+    }
+}
